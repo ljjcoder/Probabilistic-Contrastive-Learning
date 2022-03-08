@@ -1,2 +1,2 @@
 # PCL
-Probability Contrastive Learning for Domain Adaptation (official Pytorch implementation)
+Probabilistic Contrastive Learning for Domain Adaptation (official Pytorch implementation)
