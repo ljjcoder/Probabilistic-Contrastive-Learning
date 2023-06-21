@@ -6,6 +6,6 @@ This code is based on [FlexMatch: boosting semi-supervised learning using curric
 
 ### Training
 
-Command line for training model on 1 GPU
+Command line for training model on 4 GPU
 ```bash
-CUDA_VISIBLE_DEVICES=0 sh train.sh
+sh train.sh
