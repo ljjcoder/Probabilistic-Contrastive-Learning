@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="sshConfig://wsl2/home/zhangyx/anaconda3/bin/python3" remoteFilesAllowedToDisappearOnAutoupload="false" autoUploadExternalChanges="true">
+    <serverData>
+      <paths name="sshConfig://wsl2/home/zhangyx/anaconda3/bin/python3">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/PycharmProjects/ICLR2022" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
