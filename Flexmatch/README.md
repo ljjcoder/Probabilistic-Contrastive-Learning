@@ -9,3 +9,4 @@ This code is based on [FlexMatch: boosting semi-supervised learning using curric
 Command line for training model on 4 GPU
 ```bash
 sh train.sh
+
