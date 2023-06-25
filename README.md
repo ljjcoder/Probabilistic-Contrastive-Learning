@@ -9,8 +9,8 @@ PCL is a simple yet powerful contrastive learning loss. The full paper is answer
 
 #### 2. Why is such a simple PCL able to significantly improve performance?
 
-We think that the core problem here is that the current FCL generally ignores the relationship between features and class weights, while PCL explicitly narrows the distance between features and class weights. Based on the above understanding, PCL can be used in all close-set learning tasks, that is, unlabeled data and labeled data belong to the same semantic space. We have verified 5 tasks so far.
-#### we also expect researchers to verify the effectiveness of PCL in more tasks.
+We think that the core problem here is that the current FCL generally ignores the relationship between features and class weights, while PCL explicitly narrows the distance between features and class weights. Based on the above understanding, PCL can be used in all close-set learning tasks, that is, unlabeled data and labeled data belong to the same semantic space. So far, we have verified 5 tasks so far and we believe that PCL can bring benefits on many more tasks.
+#### Therefore, we also expect researchers to verify the effectiveness of PCL in more tasks.
 
 
 #### If you use this code/method or find it helpful, please cite:
