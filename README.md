@@ -3,7 +3,7 @@ Probabilistic Contrastive Learning for Domain Adaptation [here](https://arxiv.or
 
 #### About code
 
-We have refactored the experimental code (UDA and Flexmatch), if you have any problems, please contact us in time.
+We have refactored the experimental code (UDA_GVB and SSL_Flexmatch), if you have any problems, please contact us in time.
 
 #### Something to Say:
 
