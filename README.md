@@ -9,7 +9,7 @@ We have refactored the experimental code (UDA_GVB and SSL_Flexmatch), if you hav
 
 The full paper is answering three questions:
 
-#### 1. Can we rely solely on the motivation that "contrastive learning can improve feature generalization, robustness, and compactness" to make contrastive learning effective in DA tasks?
+#### 1. Can we directly use contrastive learning in domain adaptation tasks and obtain objective gains only by relying on the motivation that "contrastive learning can improve feature generalization, robustness, and compactness"?
 
 #### 2. If not, why?
 
