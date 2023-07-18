@@ -16,7 +16,7 @@ The full paper is answering three questions:
 #### 3. How can the contrastive learning loss be adapted to the DA task?
 
 We think that the core problem here is that the current FCL generally ignores the relationship between features and class weights, while PCL explicitly narrows the distance between features and class weights. Based on the above understanding, PCL can be used in all close-set learning tasks, that is, unlabeled data and labeled data belong to the same semantic space. So far, we have verified 5 tasks and we believe that PCL can bring benefits on many more tasks.
-#### Therefore, we also expect researchers to verify the effectiveness of PCL in more tasks!!!!!! In addition, we also strongly recommend that relevant researchers consider the deviation of features and class weights in this type of task, and design a more elegant and efficient contrastive learning loss.
+#### Therefore, we also expect researchers to verify the effectiveness of PCL in more tasks!!!!!! In addition, I sincerely hope that researchers will focus on the relationship between features and class weights when using contrastive learning loss, and design a more elegant and efficient contrastive learning loss.
 
 #### Personal Feelings:
 
