@@ -1,6 +1,10 @@
 # PCL
 Probabilistic Contrastive Learning for Domain Adaptation [here](https://arxiv.org/abs/2111.06021) (official Pytorch implementation). 
 
+
+:bell: **News:**
+* [2024-04-17] After three years of repeated revisions, we are happy to announce that PCL was accepted at **IJCAI2024**.
+
 #### About code
 
 We have refactored the experimental code (UDA_GVB and SSL_Flexmatch), if you have any problems, please contact us in time.
