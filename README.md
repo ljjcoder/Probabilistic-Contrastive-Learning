@@ -32,12 +32,14 @@ I understand how you feel, but allow me to defend PCL a little bit.
 I must admit that PCL is not difficult in terms of the complexity of the operation and the depth of the analysis, and it is difficult to say how valuable it is. But when I first faced the problem of FCL's poor performance in DA tasks, the uncertainty I faced made my research feel like an abyss. Every failure brings with it a painful decision: Is this path worth pursuing?  I will talk about this research process below. 
 
 
-##Confidence is more important than gold
+* 1 Confidence is more important than gold
+
 In fact, at the beginning of this research, I did not think clearly why we should use contrastive learning in DA. Our idea is very simple. Driven by work such as MOCO and simclr, contrastive learning has had a huge impact on the computer vision community. Using contrastive learning loss in many downstream tasks can bring significant gains. For the purpose of catching up with hot topics, I also want to try contrastive learning in the DA field.
 However, the gains obtained are very limited, which has puzzled me for a long time. After that, I also tried many commonly used techniques, such as carefully selecting positive and negative samples, but with little success. This made me suspect that contrastive learning itself might be a dispensable technology for DA tasks. This straightforward experience of using contrastive learning also made my teachers and classmates lose confidence in the role of contrastive learning in domain adaptation tasks, and suggested a different direction. I didn’t know why at the time, but I still insisted that contrastive learning would be effective, even though there was no definite basis for this insistence. After that, I embarked on a lonely journey, and every step seemed to remind me that it was time to change direction.
 
 
-##A sudden flash of inspiration
+* 2 A sudden flash of inspiration
+
 After I tried a series of commonly used contrastive learning improvement techniques, one day, I suddenly realized that the deviation of features and weights may be the reason for the ineffectiveness of contrastive learning in DA tasks. Maybe the readers don't agree, but for myself, realizing this is the most valuable contribution of this paper. Because it gives the way forward, otherwise, it would be difficult for me to stick to the route of contrastive learning. 
 
 Then, a key question is how to make the features approach the class weights. More importantly, what kind of indicators should we use to measure this closeness. Fortunately, we first realized that the one-hot form can be used as a suitable metric, and thus designed the concise PCL.
